@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: wheat;
+}
+
+.parent {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounceIn infinite; 
+    animation-duration: 5s; 
+  }
+  .parent:hover{
+      animation: none;
+  }
+      .parent{
+          min-height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      #input{
+          padding: 2rem;
+          width: 30rem;
+          outline: none;
+          border-radius: 50px;
+          border: none;
+      }
+      ::placeholder{
+          color: black;
+          text-transform: uppercase;
+      }
+      #field{
+          padding: 5rem;
+      }#field:hover{border: 2px dotted #ef3f49;
+         transition: 0.5s ease-in-out;
+      }
